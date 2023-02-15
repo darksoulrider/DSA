@@ -1,0 +1,2 @@
+- while  solving the problem, always think can we solve it with 2 separate loops. instead of nested loops
+- if we use 2 separate loops, then we might need space to store.
