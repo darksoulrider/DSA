@@ -19,7 +19,10 @@ int BST(int arr[], int size, int key)
     int start = 0;
     int end = size - 1;
     // int mid = (start + end) / 2;
-    int mid = (start / 2) + (end / 2); // safety
+    // int mid = (start / 2) + (end / 2); // dont ever try this, 7/2 takes 3
+    // instead of that use above mentioned foemula
+
+    int mid = (start + ((end - start) / 2));
 
     while (start <= end)
     {
